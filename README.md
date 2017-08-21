@@ -19,3 +19,12 @@ The project file run_analysis.R does the following:
 Example: So if subject #1 were to have 10 feature rows for WALKING activity, our new file now has 1 row for subject #1 and WALKING activity and where all the column measures are now averages across those 10 rows.  
 
 “tidy_avg_mean_and_std_features.txt” is explained in the file "code_book_features_info.txt"
+
+# How To
+getclean <- function(datadir=getwd(), writedir=getwd())
+
+1.  place data in working directory or in a directory of your choosing
+2.  pass the function getclean() parameters indicating where your data is at and where you want it to write the new tidy data file
+     i.e.  df <- getclean() ## this will use the default working directory.
+3. the “tidy_avg_mean_and_std_features.txt” will be written to the directory specified.  
+4. df will contain the data frame
