@@ -22,7 +22,7 @@
 ## one file contains the activity id and label for each activity
 ## one file contains id and label for each feature
 
-getclean <- function(datadir="~/desktop/coursera/assignments/5/data/", writedir="~/desktop/coursera/assignments/5/getcleandata/"){
+getclean <- function(datadir=getwd(), writedir=getwd()){
   library(dplyr)
         
         ##this function accepts a directory to retrieve data, and
