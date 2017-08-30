@@ -1,3 +1,28 @@
+## get data and produce tidy data set for future analysis
+## data collected from smart phone accelerometer data
+## purpose of original data set to recognize human activity
+
+## the features data represent calculated measurements from the 
+##..acceleraometer and gyro readings.
+##WE will ONLY extract data that contain the mean and standard deviation 
+##...measures from the features
+
+## Then the final data set will produce the average of these measures by
+##..subject and activity.  Resulting in only one row of data per subject
+##..and activity
+
+## the data comes split into test and training data sets
+## Note - a requirement for this analysis is to combine the test and training data
+
+## each test and train data set has its own set of files:
+## one file contains the human subject identifiers for each row element
+## and one file contains 561 calculated measurements (features) for each row
+## one file contains the activity label identifiers for each row element
+## each of the files contains 2947 rows of data
+## one file contains the activity id and label for each activity
+## one file contains id and label for each feature
+
+
 # getcleandata
 coursera getting and cleaning data peer reviewed assignment.  data from UCI Machine Learning repository for human activity recognition from smart phone data.
 
