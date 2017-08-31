@@ -32,27 +32,28 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
 
-Average of the mean and standard deviation measures by Subject and Activity
-============================================================================
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-The complete list of variables of each feature vector is available in “mean_and_std_features.txt” which is reduced from the original “features.txt” file.
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
 
-For the data “tidy_avg_mean_and_std_features.txt” the feature values described above and listed in “mean_and_std_features.txt” are averaged by subject_id and activity.
-
-This codebook describes 
-To obtain the average measures in “tidy_avg_mean_and_std_features.txt” we first reduce the original feature data set (see README.txt) to only mean and standard deviation measures, and then we average these measures by subject and activity.
-
-Example: So if subject #1 were to have 10 feature rows for WALKING activity, our new file “tidy_avg_mean_and_std_features.txt” has only 1 row for (subject #1 and WALKING activity) and where all the column measures are now averages across 10 original rows for (subject #1 and WALKING activity).
-
-The Activity column contains one of the following activities:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
-
-These activities are also found in the activity_label file provided with the original dataset.
-
-
+The complete list of variables of each feature vector is available in 'features.txt'
