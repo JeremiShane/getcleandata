@@ -51,7 +51,8 @@
 
 > Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-> | --- 
+> | Additional Vectors |
+> | ------------------ | 
 > | gravityMean
 > | tBodyAccMean
 > | tBodyAccJerkMean
