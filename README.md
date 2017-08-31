@@ -13,7 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The project file run_analysis.R does the following:
 1.  Merges the training and the test sets to create one data set.
-2.  Extracts only the measurements on the mean and standard deviation for each measurement.
+2.  Extracts only the measurements on the mean and standard deviation for each measurement.  Note - Mean Frequency is included in the resulting tidy dataset.
 3.  Creates a new tidy data set “tidy_avg_mean_and_std_features.txt” with the average of each variable for each activity and each subject.  
 
 Example: So if subject #1 were to have 10 feature rows for WALKING activity, our new file now has 1 row for subject #1 and WALKING activity and where all the column measures are now averages across those 10 rows.  
