@@ -39,19 +39,19 @@ Description: Get dataset and Tidy the dataset.  This dataset is from research to
 library plyr should be loaded before dplyr
         
 ## the function...
-reads the feature labels from the original dataset
-reads the activity labels from the original dataset
-reads the test feature measurement data
-reads the train feature measurement data
-uses rbind to combine the train and test data sets
-adds the columns for activity_id and subject_id
-uses grep to extract only the data columns for mean and standard deviation feature measurements
-writes out file "mean_and_std_features.txt" which contains all the original column labels for mean and std features
-uses ddply to apply colmeans to each column in the new data frame that contains the mean and std features, ddply groups the data frame by subject and activity
-the resulting data frame df contains the average of each mean and standard deviation feature measurement by subject and activity.  this results in only one row per subject and activity,...6 rows per subject as there are 6 activities
-uses gsub to tidy the column names and make them more readable and descriptive
-writes out a file of the descriptive column names "descriptive_mean_and_std_features.txt"
-arranges the columns for better readability
-writes out the tidy dataset to "tidy_avg_mean_and_std_features.txt" and then to "tidy.csv"
-returns the number of columns and number of rows in the dataset 
+##### reads the feature labels from the original dataset
+##### reads the activity labels from the original dataset
+##### reads the test feature measurement data
+##### reads the train feature measurement data
+##### uses rbind to combine the train and test data sets
+##### adds the columns for activity_id and subject_id
+##### uses grep to extract only the data columns for mean and standard deviation feature measurements
+##### writes out file "mean_and_std_features.txt" which contains all the original column labels for mean and std features
+##### uses ddply to apply colmeans to each column in the new data frame that contains the mean and std features, ddply groups the data frame by subject and activity
+##### the resulting data frame df contains the average of each mean and standard deviation feature measurement by subject and activity.  this results in only one row per subject and activity,...6 rows per subject as there are 6 activities
+##### uses gsub to tidy the column names and make them more readable and descriptive
+##### writes out a file of the descriptive column names "descriptive_mean_and_std_features.txt"
+##### arranges the columns for better readability
+##### writes out the tidy dataset to "tidy_avg_mean_and_std_features.txt" and then to "tidy.csv"
+##### returns the number of columns and number of rows in the dataset 
 
