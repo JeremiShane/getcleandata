@@ -130,42 +130,42 @@
 | 41 | time.body.gyroscope.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the time domain body angular velocity
 | 42 | time.body.gyroscope.jerk.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the time domain body angular velocity jerk
 | 43 | time.body.gyroscope.jerk.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the time domain body angular velocity jerk
-| 44 | frequency.body.acceleration.mean.xdirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration in the x direction
-| 45 | frequency.body.acceleration.mean.ydirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration in the y direction
-| 46 | frequency.body.acceleration.mean.zdirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration in the z direction
-| 47 | frequency.body.acceleration.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration in the x direction
-| 48 | frequency.body.acceleration.standarddeviation.ydirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration in the y direction
-| 49 | frequency.body.acceleration.standarddeviation.zdirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration in the z direction
-| 50 | frequency.body.acceleration.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration in the x direction
-| 51 | frequency.body.acceleration.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration in the y direction
-| 52 | frequency.body.acceleration.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration in the z direction
-| 53 | frequency.body.acceleration.jerk.mean.xdirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration jerk in the x direction
-| 54 | frequency.body.acceleration.jerk.mean.ydirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration jerk in the y direction
-| 55 | frequency.body.acceleration.jerk.mean.zdirection | num  | -1 to 1  | the average mean of the frequency domain body acceleration jerk in the z direction
-| 56 | frequency.body.acceleration.jerk.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration jerk in the x direction
-| 57 | frequency.body.acceleration.jerk.standarddeviation.ydirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration jerk in the y direction
-| 58 | frequency.body.acceleration.jerk.standarddeviation.zdirection | num  | -1 to 1  | the average standard deviation of the frequency domain body acceleration jerk in the z direction
-| 59 | frequency.body.acceleration.jerk.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration jerk in the x direction
-| 60 | frequency.body.acceleration.jerk.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration jerk in the y direction
-| 61 | frequency.body.acceleration.jerk.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body acceleration jerk in the z direction
-| 62 | frequency.body.gyroscope.mean.xdirection | num  | -1 to 1  | the average mean of the frequency domain body angular velocity in the x direction
-| 63 | frequency.body.gyroscope.mean.ydirection | num  | -1 to 1  | the average mean of the frequency domain body angular velocity in the y direction
-| 64 | frequency.body.gyroscope.mean.zdirection | num  | -1 to 1  | the average mean of the frequency domain body angular velocity in the z direction
-| 65 | frequency.body.gyroscope.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the frequency domain body angular velocity in the x direction
-| 66 | frequency.body.gyroscope.standarddeviation.ydirection | num  | -1 to 1  | the average mean of the frequency domain body angular velocity in the y direction
-| 67 | frequency.body.gyroscope.standarddeviation.zdirection | num  | -1 to 1  | the average mean of the frequency domain body angular velocity in the z direction
-| 68 | frequency.body.gyroscope.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body angular velocity in the x direction
-| 69 | frequency.body.gyroscope.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the frequency domain body angular velocity in the y direction
-| 70 | frequency.body.gyroscope.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the frequency domain body angular velocity in the z direction
-| 71 | frequency.body.acceleration.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the frequency domain body acceleration
-| 72 | frequency.body.acceleration.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the frequency domain body acceleration
-| 73 | frequency.body.acceleration.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the frequency domain body acceleration
-| 74 | frequency.body.body.acceleration.jerk.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the frequency domain body acceleration jerk
-| 75 | frequency.body.body.acceleration.jerk.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the frequency domain body acceleration jerk
-| 76 | frequency.body.body.acceleration.jerk.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the frequency domain body acceleration jerk
-| 77 | frequency.body.gyroscope.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the frequency domain body angular velocity
-| 78 | frequency.body.gyroscope.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the frequency domain body angular velocity
-| 79 | frequency.body.gyroscope.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the frequency domain body angular velocity
-| 80 | frequency.body.gyroscope.jerk.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the frequency domain body angular velocity jerk
-| 81 | frequency.body.gyroscope.jerk.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the frequency domain body angular velocity jerk
-| 82 | frequency.body.gyroscope.jerk.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the frequency domain body angular velocity jerk
+| 44 | fft.body.acceleration.mean.xdirection | num  | -1 to 1  | the average mean of the fft domain body acceleration in the x direction
+| 45 | fft.body.acceleration.mean.ydirection | num  | -1 to 1  | the average mean of the fft domain body acceleration in the y direction
+| 46 | fft.body.acceleration.mean.zdirection | num  | -1 to 1  | the average mean of the fft domain body acceleration in the z direction
+| 47 | fft.body.acceleration.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration in the x direction
+| 48 | fft.body.acceleration.standarddeviation.ydirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration in the y direction
+| 49 | fft.body.acceleration.standarddeviation.zdirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration in the z direction
+| 50 | fft.body.acceleration.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration in the x direction
+| 51 | fft.body.acceleration.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration in the y direction
+| 52 | fft.body.acceleration.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration in the z direction
+| 53 | fft.body.acceleration.jerk.mean.xdirection | num  | -1 to 1  | the average mean of the fft domain body acceleration jerk in the x direction
+| 54 | fft.body.acceleration.jerk.mean.ydirection | num  | -1 to 1  | the average mean of the fft domain body acceleration jerk in the y direction
+| 55 | fft.body.acceleration.jerk.mean.zdirection | num  | -1 to 1  | the average mean of the fft domain body acceleration jerk in the z direction
+| 56 | fft.body.acceleration.jerk.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration jerk in the x direction
+| 57 | fft.body.acceleration.jerk.standarddeviation.ydirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration jerk in the y direction
+| 58 | fft.body.acceleration.jerk.standarddeviation.zdirection | num  | -1 to 1  | the average standard deviation of the fft domain body acceleration jerk in the z direction
+| 59 | fft.body.acceleration.jerk.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration jerk in the x direction
+| 60 | fft.body.acceleration.jerk.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration jerk in the y direction
+| 61 | fft.body.acceleration.jerk.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the fft domain body acceleration jerk in the z direction
+| 62 | fft.body.gyroscope.mean.xdirection | num  | -1 to 1  | the average mean of the fft domain body angular velocity in the x direction
+| 63 | fft.body.gyroscope.mean.ydirection | num  | -1 to 1  | the average mean of the fft domain body angular velocity in the y direction
+| 64 | fft.body.gyroscope.mean.zdirection | num  | -1 to 1  | the average mean of the fft domain body angular velocity in the z direction
+| 65 | fft.body.gyroscope.standarddeviation.xdirection | num  | -1 to 1  | the average standard deviation of the fft domain body angular velocity in the x direction
+| 66 | fft.body.gyroscope.standarddeviation.ydirection | num  | -1 to 1  | the average mean of the fft domain body angular velocity in the y direction
+| 67 | fft.body.gyroscope.standarddeviation.zdirection | num  | -1 to 1  | the average mean of the fft domain body angular velocity in the z direction
+| 68 | fft.body.gyroscope.meanfrequency.xdirection | num  | -1 to 1  | the average mean frequency of the fft domain body angular velocity in the x direction
+| 69 | fft.body.gyroscope.meanfrequency.ydirection | num  | -1 to 1  | the average mean frequency of the fft domain body angular velocity in the y direction
+| 70 | fft.body.gyroscope.meanfrequency.zdirection | num  | -1 to 1  | the average mean frequency of the fft domain body angular velocity in the z direction
+| 71 | fft.body.acceleration.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the fft domain body acceleration
+| 72 | fft.body.acceleration.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the fft domain body acceleration
+| 73 | fft.body.acceleration.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the fft domain body acceleration
+| 74 | fft.body.body.acceleration.jerk.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the fft domain body acceleration jerk
+| 75 | fft.body.body.acceleration.jerk.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the fft domain body acceleration jerk
+| 76 | fft.body.body.acceleration.jerk.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the fft domain body acceleration jerk
+| 77 | fft.body.gyroscope.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the fft domain body angular velocity
+| 78 | fft.body.gyroscope.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the fft domain body angular velocity
+| 79 | fft.body.gyroscope.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the fft domain body angular velocity
+| 80 | fft.body.gyroscope.jerk.magnitude.mean | num  | -1 to 1  | the average mean of the magnitude of the fft domain body angular velocity jerk
+| 81 | fft.body.gyroscope.jerk.magnitude.standarddeviation | num  | -1 to 1  | the average standard deviation of the magnitude of the fft domain body angular velocity jerk
+| 82 | fft.body.gyroscope.jerk.magnitude.meanfrequency | num  | -1 to 1  | the average mean frequency of the magnitude of the fft domain body angular velocity jerk

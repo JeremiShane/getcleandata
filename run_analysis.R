@@ -97,7 +97,7 @@ getclean <- function(datadir=getwd(), writedir=getwd()){
         ## making a new vector for the new descriptive column names for tidy dataset
         vDescriptiveMeanStdFeatures <- gsub("\\.","",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("^t","time",vDescriptiveMeanStdFeatures)
-        vDescriptiveMeanStdFeatures <- gsub("^f","frequency",vDescriptiveMeanStdFeatures)
+        vDescriptiveMeanStdFeatures <- gsub("^f","fft",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("Freq","frequency",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("BodyAcc","\\.body\\.acceleration",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("GravAcc","\\.gravity\\.acceleration",vDescriptiveMeanStdFeatures)
