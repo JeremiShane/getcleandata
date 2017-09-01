@@ -114,6 +114,7 @@ getclean <- function(datadir=getwd(), writedir=getwd()){
         vDescriptiveMeanStdFeatures <- gsub("mean","\\.mean",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("activityid","activity\\.id",vDescriptiveMeanStdFeatures)
         vDescriptiveMeanStdFeatures <- gsub("subjectid","subject\\.id",vDescriptiveMeanStdFeatures)
+        vDescriptiveMeanStdFeatures <- gsub("body\\.body","body",vDescriptiveMeanStdFeatures)
         
         ## replace the column names with the descriptive column names
         colnames(df) <- vDescriptiveMeanStdFeatures

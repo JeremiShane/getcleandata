@@ -71,9 +71,9 @@
 71 fft.body.acceleration.magnitude.mean
 72 fft.body.acceleration.magnitude.standarddeviation
 73 fft.body.acceleration.magnitude.meanfrequency
-74 fft.body.body.acceleration.jerk.magnitude.mean
-75 fft.body.body.acceleration.jerk.magnitude.standarddeviation
-76 fft.body.body.acceleration.jerk.magnitude.meanfrequency
+74 fft.body.acceleration.jerk.magnitude.mean
+75 fft.body.acceleration.jerk.magnitude.standarddeviation
+76 fft.body.acceleration.jerk.magnitude.meanfrequency
 77 fft.body.gyroscope.magnitude.mean
 78 fft.body.gyroscope.magnitude.standarddeviation
 79 fft.body.gyroscope.magnitude.meanfrequency
