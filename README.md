@@ -55,3 +55,7 @@ library plyr should be loaded before dplyr
 ##### writes out the tidy dataset to "tidy_avg_mean_and_std_features.txt" and then to "tidy.csv"
 ##### returns the number of columns and number of rows in the dataset 
 
+> ## Optional - Long Skinny Tidy
+> ### after running getclean(), you can also run longskinnytidy() to create a "longskinnytidy.txt" version of the file “tidy_avg_mean_and_std_features.txt”
+> ### longskinnytidy() works the same as getclean()...simply pass your read and write directories, and the function returns the number of columns and number of rows.
+> ### see longskinnytidy.R
